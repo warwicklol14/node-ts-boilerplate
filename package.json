@@ -1,0 +1,19 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for node and typescript with nodemon and dotenv.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "start:prod": "node dist/"
+  },
+  "author": "warwicklol14",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
